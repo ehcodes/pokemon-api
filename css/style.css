@@ -1,8 +1,14 @@
+body{
+  background-color: rgba(255,222,0,.8);
+  font: 12px monospace;
+}
 h1, header, #apiCall{
   text-align: center;
 }
 #apiRes{
-  height: 400px;
+  text-align: center;
+  width: 70%;
+  margin: auto;
 }
 header{
   height: 90px;
@@ -12,13 +18,8 @@ header{
   background-position: center;
 }
 header, section{
-  width: 80%;
+  width: 70%;
   margin: auto;
-  background-color: rgba(0,0,255,.2);
+  background-color: rgba(0,0,255,.7);
   padding: 2%;
-}
-body{
-  background-image: url("https://i.ytimg.com/vi/XzKvdm1MSWU/maxresdefault.jpg");
-  background-size: 100% auto;
-  background-repeat: no-repeat;
 }
